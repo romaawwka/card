@@ -1,0 +1,150 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.all{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 30%;
+    height: 100%;
+}
+h1{
+    color: #364162;
+   
+}
+.twoBoxes{
+    display: flex;
+    height: 100%;
+}
+.text{
+    font-size: 13px;
+}
+.bigBox1{
+    
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    width: 45%;
+    height: 42%;
+    margin: 15px;
+    transition: 0.4s;
+}
+.bigBox1:hover{
+    box-shadow: rgb(227, 226, 235) 0 5px 8px 2px;
+}
+.bigBox1:hover .backgoundBox1{
+    transition: 0.4s;
+    background-color: rgb(229, 228, 235);
+}
+
+.bigBox2{
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    width: 45%;
+    height: 48%;
+    margin: 15px;
+}
+.bigBox2:hover{
+    transition: 0.4s;
+    box-shadow: rgb(227, 226, 235) 0 5px 8px 2px;
+}
+.text1{
+    margin-top: 10%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2{
+    margin-top: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+}
+.twoText{
+    display: flex;
+    justify-content: center;
+    
+  
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.text4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:13px ;
+    
+}
+.backgoundBox1{
+   
+    height: 38%;
+    background-color: rgb(238, 238, 238);
+    transition: 0.4s;
+}
+.backgoundBox1:hover{
+    transition: 0.4s;
+    background-color: rgb(229, 228, 235);
+}
+.backgoundBox3{
+    height: 33%;
+    background-color: rgb(238, 238, 238);
+    transition: 0.4s;
+}
+.bigBox2:hover .backgoundBox3{
+    transition: 0.4s;
+    background-color: rgb(229, 228, 235);
+}
+.backgroundBox2{
+    margin-top: 12%;
+}
+.box2Text1{
+    font-size: 15px;
+    margin-top: 5%;
+    display: flex;
+   justify-content: center;
+}
+.but1{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background-color: #2000F9;
+    width: 65%;
+    color: white;
+    border: 2px solid #2000F9;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    height: 10%;
+    cursor: pointer;
+}
+.textBottom{
+    margin-top: 10%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6247FA;
+    cursor: pointer;
+}
